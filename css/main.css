@@ -1,0 +1,238 @@
+/***** Base Styles *****/
+body {
+  font-family: font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background-color: #ecf2f9;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+#header-background {
+  height: 800px;
+}
+
+main {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1400px;
+}
+
+#portfolio {
+  height: 1650px;
+}
+
+#about {
+  height: auto;
+}
+
+#contact {
+  height: 550px;
+}
+
+/***** Grid *****/
+.full-width {
+  width: 1200px;
+}
+
+.half-width {
+  width: 600px;
+  height: 480px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+}
+
+/***** Header *****/
+#header-background {
+  background: url('../img/hero-background.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  clear: both;
+}
+
+header h2 {
+  padding: 5px 0 0 20px;
+  font-size: 45px;
+  font-weight: lighter;
+  font-variant: small-caps;
+  color: #4d4d4d;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding: 27px 20px 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 45px;
+  color: #4d4d4d;
+  padding-left: 45px;
+  font-weight: lighter;
+  font-variant: small-caps;
+}
+
+header h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: normal;
+  font-size: 72px;
+  padding: 100px 0 0 45px;
+}
+
+header h1 span {
+  color: #666666;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/***** Portfolio *****/
+#portfolio h3 {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  color: #4d4d4d;
+  font-size: 55px;
+  font-variant: small-caps;
+}
+
+#portfolio {
+  padding: 0 40px 0 100px;
+  border: 1px solid #9fbedf;
+  background-color: #9fbedf;
+}
+
+#portfolio h4 {
+  color: #404040;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#portfolio p {
+  text-align: left;
+  color: #19334d;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#jubilee-p {
+  margin-right: 40px;
+}
+
+#portfolio h4 span {
+  color: #404040;
+  text-align: left;
+  font-weight: lighter;
+}
+
+/***** About *****/
+#about {
+  background: url('../img/about-me.png');
+  background-size: cover;
+  width: 1400px;
+  overflow: auto;
+}
+
+#about h3 {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  color: #4d4d4d;
+  font-size: 55px;
+  font-variant: small-caps;
+}
+
+#about h4 {
+  color: #404040;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#about p {
+  color: #264d73;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  margin-right: 270px;
+  padding-right: 35px;
+}
+
+#about .full-width {
+  padding: 0 100px 50px 100px;
+}
+
+#about a {
+  text-decoration: none;
+  color: #264d73;
+  font-weight: bold;
+}
+
+/***** Footer *****/
+footer h3 {
+  text-align: center;
+  color: #4d4d4d;
+  font-family: 'Source Code Pro', monospace;
+  font-variant: small-caps;
+  font-size: 55px;
+  padding-top: 35px;
+}
+
+footer {
+  background-color: #9fbedf;
+  margin-top: -55px;
+}
+
+footer .full-width {
+  width: 1400px;
+}
+
+.third-width {
+  float: left;
+  height: inherit;
+}
+
+#box-1 {
+  padding-left: 70px;
+}
+
+#box-3 {
+  padding-right: 70px;
+}
+
+#box-2 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#copyright-div {
+  clear: both;
+}
+
+footer h4 {
+  color: #404040;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+footer p, a {
+  color: #264d73;
+  text-align: center;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+#box-2 ul, li, img {
+  list-style: none;
+  display: inline-block;
+  font-size: 15px;
+  padding-right: 15px;
+}
+
+#copyright-div p {
+  font-size: 15px;
+}
